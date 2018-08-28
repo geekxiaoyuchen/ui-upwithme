@@ -1,5 +1,6 @@
 /* Common Styles */
 .color-green{color:#9BCB5C;}
+
 .pt-5{padding-top:5px;}
 .pt-10{padding-top:10px;}
 .pt-15{padding-top:15px;}
@@ -29,24 +30,37 @@
   text-align: justify;
 }
 
+h1{ font-size: 2em; margin: .67em 0; }
+h2{ font-size: 1.5em; margin: .75em 0; }
+h3{ font-size: 1.17em; margin: .83em 0; }
+h4{ font-size: 1.08em; margin: .7em 0; }
+h5{ font-size: .83em; margin: 1.5em 0; }
+h6{ font-size: .75em; margin: 1.67em 0; }
+
+/* 适用于超级大屏幕 */
 @media (min-width: 1200px) and (max-width: 1920px) {
   .ft-s{font-size:14px;}
   .ft-m{font-size:16px;}
   .ft-l{font-size:18px;}
   .ft-h{font-size:28px;}
+
 }
 
+/* 适用于大于1200小于1440的普通屏幕　*/
 @media (min-width: 1200px) and (max-width: 1440px) {
   .ft-s{font-size:10px;}
   .ft-m{font-size:12px;}
   .ft-l{font-size:14px;line-height:24px;}
   .ft-h{font-size:18px;}
+
 }
 
+/* 适用于手机的小屏幕　*/
 @media (min-width: 320px){
   .section-gallery img{
     margin-bottom:10px;
   }
+
 }
 
 /* Header Styles */
@@ -85,7 +99,7 @@
 }
 
 .section{margin-top: 0;margin-bottom: 0;padding-bottom:0;padding-top: 0;}
-h3{padding-top: 40px; margin-top:0;}
+
 .course{padding-bottom:20px;}
 .activity-item{
   padding:10px;
