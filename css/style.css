@@ -43,6 +43,12 @@
   .ft-h{font-size:18px;}
 }
 
+@media (min-width: 320px){
+  .section-gallery img{
+    margin-bottom:10px;
+  }
+}
+
 /* Header Styles */
 .header{
   border-top:3px solid #FF9800;
