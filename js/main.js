@@ -3,7 +3,7 @@ M.Sidenav.init(elems, {});
 
 const slider = document.querySelector(".slider");
 M.Slider.init(slider, {
-  height: 360,
+  height: 300,
   indicators: false,
   interval: 6000
 });
